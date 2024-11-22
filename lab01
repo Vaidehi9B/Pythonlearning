@@ -1,6 +1,6 @@
 
 print ("Hello Vaidehi")     #this line prints hello vaidehi
-print ("I want to become an automation test engineer in python with 834235")
+print ("I want to become an automation test engineer in python")
 print (23+45)
 print (23*45)
 print (23-14)
