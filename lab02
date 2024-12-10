@@ -1,0 +1,15 @@
+#import keyword
+#print (keyword.kwlist)
+
+name = input("Enter your name:")
+print(name)
+age = input("Enter your age:")
+print(age)
+
+fname = input("Enter your first name:")
+lname = input("Enter your last name:")
+print(fname,lname, sep ='-', end ='\n')
+
+
+name2 = input("Enter your name:")
+print('You are welcome', name2 ,'to the python class')
