@@ -1,0 +1,46 @@
+
+my_string = "This is the python program"
+print(type(my_string))
+print(len(my_string))
+
+#string is a bunch of characters
+
+name = "Vaidehi"
+print(len(name))    #length always start from 1, index starts from 0
+
+print("------------")
+name1 ="vaidehi"
+print(type(name1))
+print(len(name1))
+print(name1[5])
+print(name1[0])
+
+#print(name1[8])    #IndexError: string index out of range
+
+print("-----slicing-------")
+name2 = "Bruce Wayne"
+print(len(name2))               #length of the string
+print(name2[0:1])               #slicing: start, end
+print(name2[0:2])
+print(name2[0:3])
+print(name2[0:4])
+print(name2[0:5])
+print(name2[0:7])
+print(name2[0:8])
+print(name2[0:9])
+print(name2[0:10])
+print(name2[0:11])
+
+print("------------")
+name3 = "Batman"            #name3(name3[start_index, end_index(x-1)]
+print(name3[1:2])
+print(name3[1:3])
+print(name3[2:5])
+
+print("------------")
+print("c:\some\name")       #its taking \n so will use raw 'r'
+print(r"c:\some\name")
+
+random_name = "Peter Parker"
+print(len(random_name))
+
